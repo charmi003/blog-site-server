@@ -17,7 +17,7 @@ app.use(express.json());
 
 const cors=require('cors');
 const corsOptions ={
-    origin:'http://localhost:3000', 
+    origin:'https://blog-site-be9xl454d-charmi003.vercel.app', 
     credentials:true,            //access-control-allow-credentials:true
     optionSuccessStatus:200,
  }
