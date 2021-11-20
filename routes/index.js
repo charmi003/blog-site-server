@@ -6,6 +6,7 @@ const auth_controller=require('../controllers/auth_controller')
 const blogs_controller=require('../controllers/blogs_controller')
 const admin_controller=require('../controllers/admin_controller')
 
+
 router.post('/auth/login',auth_controller.login);
 router.get('/auth/login-status',auth_controller.checkLoginStatus);
 router.get('/auth/logout',auth_controller.logout);
